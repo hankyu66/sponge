@@ -47,9 +47,11 @@ Examples:
 	return cmd
 }
 
+var spongeSrc = "/hankyu66"
+
 func runUpgradeCommand() error {
 	ctx, _ := context.WithTimeout(context.Background(), time.Minute*3) //nolint
-	result := gobash.Run(ctx, "go", "install", "github.com/zhufuyi/sponge/cmd/sponge@latest")
+	result := gobash.Run(ctx, "go", "install", "github.com"+spongeSrc+"/sponge/cmd/sponge@latest")
 	for v := range result.StdOut {
 		_ = v
 	}
@@ -72,7 +74,7 @@ func copyToTempDir() (string, error) {
 	}
 
 	// find the new version of the sponge code directory
-	arg := fmt.Sprintf("%s/pkg/mod/github.com/zhufuyi", gopath)
+	arg := fmt.Sprintf("%s/pkg/mod/github.com"+spongeSrc, gopath)
 	result, err = gobash.Exec("ls", adaptPathDelimiter(arg))
 	if err != nil {
 		return "", fmt.Errorf("execute command failed, %v", err)
@@ -80,10 +82,10 @@ func copyToTempDir() (string, error) {
 
 	latestSpongeDirName := getLatestVersion(string(result))
 	if latestSpongeDirName == "" {
-		return "", fmt.Errorf("not found sponge directory in '$GOPATH/pkg/mod/github.com/zhufuyi'")
+		return "", fmt.Errorf("not found sponge directory in '$GOPATH/pkg/mod/github.com" + spongeSrc)
 	}
 
-	srcDir := adaptPathDelimiter(fmt.Sprintf("%s/pkg/mod/github.com/zhufuyi/%s", gopath, latestSpongeDirName))
+	srcDir := adaptPathDelimiter(fmt.Sprintf("%s/pkg/mod/github.com"+spongeSrc+"/%s", gopath, latestSpongeDirName))
 	destDir := adaptPathDelimiter(GetSpongeDir() + "/")
 	targetDir := adaptPathDelimiter(destDir + ".sponge")
 
