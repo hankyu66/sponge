@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/zhufuyi/sponge/pkg/replacer"
+	"github.com/hankyu66/sponge/pkg/replacer"
 
 	"github.com/spf13/cobra"
 )
@@ -139,7 +139,7 @@ func addCacheFields(moduleName string, r replacer.Replacer, cacheName string, pr
 
 	fields = append(fields, []replacer.Field{
 		{
-			Old: "github.com/zhufuyi/sponge/internal/model",
+			Old: "github.com/hankyu66/sponge/internal/model",
 			New: moduleName + "/internal/model",
 		},
 		{

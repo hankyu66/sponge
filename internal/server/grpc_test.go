@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhufuyi/sponge/configs"
-	"github.com/zhufuyi/sponge/internal/config"
+	"github.com/hankyu66/sponge/configs"
+	"github.com/hankyu66/sponge/internal/config"
 
-	"github.com/zhufuyi/sponge/pkg/grpc/gtls/certfile"
-	"github.com/zhufuyi/sponge/pkg/servicerd/registry"
-	"github.com/zhufuyi/sponge/pkg/utils"
+	"github.com/hankyu66/sponge/pkg/grpc/gtls/certfile"
+	"github.com/hankyu66/sponge/pkg/servicerd/registry"
+	"github.com/hankyu66/sponge/pkg/utils"
 
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"

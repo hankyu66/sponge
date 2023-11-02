@@ -5,8 +5,8 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/zhufuyi/sponge/cmd/protoc-gen-go-rpc-tmpl/internal/parse"
-	"github.com/zhufuyi/sponge/pkg/gofile"
+	"github.com/hankyu66/sponge/cmd/protoc-gen-go-rpc-tmpl/internal/parse"
+	"github.com/hankyu66/sponge/pkg/gofile"
 
 	"google.golang.org/protobuf/compiler/protogen"
 )

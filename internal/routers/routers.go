@@ -5,17 +5,17 @@ package routers
 import (
 	"net/http"
 
-	"github.com/zhufuyi/sponge/docs"
-	"github.com/zhufuyi/sponge/internal/config"
+	"github.com/hankyu66/sponge/docs"
+	"github.com/hankyu66/sponge/internal/config"
 
-	"github.com/zhufuyi/sponge/pkg/errcode"
-	"github.com/zhufuyi/sponge/pkg/gin/handlerfunc"
-	"github.com/zhufuyi/sponge/pkg/gin/middleware"
-	"github.com/zhufuyi/sponge/pkg/gin/middleware/metrics"
-	"github.com/zhufuyi/sponge/pkg/gin/prof"
-	"github.com/zhufuyi/sponge/pkg/gin/validator"
-	"github.com/zhufuyi/sponge/pkg/jwt"
-	"github.com/zhufuyi/sponge/pkg/logger"
+	"github.com/hankyu66/sponge/pkg/errcode"
+	"github.com/hankyu66/sponge/pkg/gin/handlerfunc"
+	"github.com/hankyu66/sponge/pkg/gin/middleware"
+	"github.com/hankyu66/sponge/pkg/gin/middleware/metrics"
+	"github.com/hankyu66/sponge/pkg/gin/prof"
+	"github.com/hankyu66/sponge/pkg/gin/validator"
+	"github.com/hankyu66/sponge/pkg/jwt"
+	"github.com/hankyu66/sponge/pkg/logger"
 
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"

@@ -12,7 +12,7 @@ package main
 import (
     "net/http"
 
-    "github.com/zhufuyi/sponge/pkg/gin/validator"
+    "github.com/hankyu66/sponge/pkg/gin/validator"
 
     "github.com/gin-gonic/gin"
     "github.com/gin-gonic/gin/binding"

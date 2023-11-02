@@ -7,8 +7,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/shield/cpu"
-	"github.com/zhufuyi/sponge/pkg/shield/window"
+	"github.com/hankyu66/sponge/pkg/shield/cpu"
+	"github.com/hankyu66/sponge/pkg/shield/window"
 )
 
 var (

@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/zhufuyi/sponge/internal/routers"
+	"github.com/hankyu66/sponge/internal/routers"
 
-	"github.com/zhufuyi/sponge/pkg/app"
-	"github.com/zhufuyi/sponge/pkg/servicerd/registry"
+	"github.com/hankyu66/sponge/pkg/app"
+	"github.com/hankyu66/sponge/pkg/servicerd/registry"
 
 	"github.com/gin-gonic/gin"
 )

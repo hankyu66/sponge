@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/servicerd/registry"
+	"github.com/hankyu66/sponge/pkg/servicerd/registry"
 
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc/resolver"

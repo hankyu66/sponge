@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/gobash"
-	"github.com/zhufuyi/sponge/pkg/gofile"
+	"github.com/hankyu66/sponge/pkg/gobash"
+	"github.com/hankyu66/sponge/pkg/gofile"
 
 	"github.com/spf13/cobra"
 )

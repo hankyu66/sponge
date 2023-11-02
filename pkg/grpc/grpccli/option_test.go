@@ -1,12 +1,13 @@
 package grpccli
 
 import (
-	"go.uber.org/zap"
 	"testing"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/grpc/interceptor"
-	"github.com/zhufuyi/sponge/pkg/servicerd/registry"
+	"go.uber.org/zap"
+
+	"github.com/hankyu66/sponge/pkg/grpc/interceptor"
+	"github.com/hankyu66/sponge/pkg/servicerd/registry"
 
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"

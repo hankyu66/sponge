@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/gin/handlerfunc"
-	"github.com/zhufuyi/sponge/pkg/utils"
+	"github.com/hankyu66/sponge/pkg/gin/handlerfunc"
+	"github.com/hankyu66/sponge/pkg/utils"
 
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"

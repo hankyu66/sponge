@@ -9,7 +9,7 @@
 #### Initializing the connection
 
 ```go
-    import "github.com/zhufuyi/sponge/pkg/mysql"
+    import "github.com/hankyu66/sponge/pkg/mysql"
 
     var dsn = "root:123456@(192.168.1.6:3306)/test?charset=utf8mb4&parseTime=True&loc=Local"
 
@@ -38,7 +38,7 @@
 ```go
 package model
 
-import "github.com/zhufuyi/sponge/pkg/mysql"
+import "github.com/hankyu66/sponge/pkg/mysql"
 
 // UserExample object fields mapping table
 type UserExample struct {
@@ -60,7 +60,7 @@ func (table *UserExample) TableName() string {
 #### Transaction
 
 ```go
-import "github.com/zhufuyi/sponge/pkg/mysql"
+import "github.com/hankyu66/sponge/pkg/mysql"
 
 func createUser() error {
 	// note that you should use tx as the database handle when you are in a transaction

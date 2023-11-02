@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/servicerd/registry"
+	"github.com/hankyu66/sponge/pkg/servicerd/registry"
 )
 
 func newServiceSet() *serviceSet {

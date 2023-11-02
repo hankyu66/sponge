@@ -1,4 +1,4 @@
-# This file configures github.com/zhufuyi/sponge.
+# This file configures github.com/hankyu66/sponge.
 
 run:
   # timeout for analysis, e.g. 30s, 5m, default is 1m
@@ -176,7 +176,7 @@ linters-settings:
   goimports:
     # put imports beginning with prefix after 3rd-party packages;
     # it's a comma-separated list of prefixes
-    local-prefixes: github.com/zhufuyi/sponge
+    local-prefixes: github.com/hankyu66/sponge
 
   gomnd:
     settings:

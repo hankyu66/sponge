@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/zhufuyi/sponge/pkg/gofile"
-	"github.com/zhufuyi/sponge/pkg/replacer"
-	"github.com/zhufuyi/sponge/pkg/sql2code"
-	"github.com/zhufuyi/sponge/pkg/sql2code/parser"
+	"github.com/hankyu66/sponge/pkg/gofile"
+	"github.com/hankyu66/sponge/pkg/replacer"
+	"github.com/hankyu66/sponge/pkg/sql2code"
+	"github.com/hankyu66/sponge/pkg/sql2code/parser"
 
 	"github.com/spf13/cobra"
 )
@@ -149,7 +149,7 @@ func addProtoFields(moduleName string, serverName string, r replacer.Replacer, c
 			New: codes[parser.CodeTypeProto],
 		},
 		{
-			Old: "github.com/zhufuyi/sponge",
+			Old: "github.com/hankyu66/sponge",
 			New: moduleName,
 		},
 		// replace directory name

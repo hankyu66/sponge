@@ -3,7 +3,7 @@ package gotest
 import (
 	"context"
 
-	"github.com/zhufuyi/sponge/pkg/utils"
+	"github.com/hankyu66/sponge/pkg/utils"
 
 	"github.com/alicebob/miniredis/v2"
 	"github.com/go-redis/redis/v8"

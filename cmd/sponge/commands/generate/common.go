@@ -10,8 +10,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/zhufuyi/sponge/pkg/gofile"
-	"github.com/zhufuyi/sponge/pkg/replacer"
+	"github.com/hankyu66/sponge/pkg/gofile"
+	"github.com/hankyu66/sponge/pkg/replacer"
 
 	"github.com/huandu/xstrings"
 )
@@ -84,7 +84,7 @@ var (
 	wellEndMark   = symbolConvert(endMarkStr)
 
 	// embed FS template file when using
-	selfPackageName = "github.com/zhufuyi/sponge"
+	selfPackageName = "github.com/hankyu66/sponge"
 )
 
 func symbolConvert(str string, additionalChar ...string) []byte {

@@ -92,7 +92,7 @@ package api.serverNameExample.v1;
 import "api/types/types.proto";
 //import "validate/validate.proto";
 
-option go_package = "github.com/zhufuyi/sponge/api/serverNameExample/v1;v1";
+option go_package = "github.com/hankyu66/sponge/api/serverNameExample/v1;v1";
 
 service {{.TName}} {
   // create {{.TName}}
@@ -198,7 +198,7 @@ import "protoc-gen-openapiv2/options/annotations.proto";
 import "tagger/tagger.proto";
 //import "validate/validate.proto";
 
-option go_package = "github.com/zhufuyi/sponge/api/serverNameExample/v1;v1";
+option go_package = "github.com/hankyu66/sponge/api/serverNameExample/v1;v1";
 
 // Default settings for generating swagger documents
 // NOTE: because json does not support 64 bits, the int64 and uint64 types under *.swagger.json are automatically converted to string types

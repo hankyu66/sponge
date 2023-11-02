@@ -31,7 +31,7 @@ After installing go and protoc, proceed to install Sponge. Sponge can be install
 
 ```bash
 # Install Sponge
-go install github.com/zhufuyi/sponge/cmd/sponge@latest
+go install github.com/hankyu66/sponge/cmd/sponge@latest
 
 # Initialize Sponge, automatically install Sponge's dependency plugins
 sponge init
@@ -97,7 +97,7 @@ Open the `cmder.exe` terminal (not the built-in Windows cmd), and execute the fo
 
 ```bash
 # Install Sponge
-go install github.com/zhufuyi/sponge/cmd/sponge@latest
+go install github.com/hankyu66/sponge/cmd/sponge@latest
 
 # Initialize Sponge, automatically install Sponge's dependency plugins
 sponge init

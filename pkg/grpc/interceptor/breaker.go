@@ -4,9 +4,9 @@ package interceptor
 import (
 	"context"
 
-	"github.com/zhufuyi/sponge/pkg/container/group"
-	"github.com/zhufuyi/sponge/pkg/errcode"
-	"github.com/zhufuyi/sponge/pkg/shield/circuitbreaker"
+	"github.com/hankyu66/sponge/pkg/container/group"
+	"github.com/hankyu66/sponge/pkg/errcode"
+	"github.com/hankyu66/sponge/pkg/shield/circuitbreaker"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

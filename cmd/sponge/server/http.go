@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/gin/handlerfunc"
-	"github.com/zhufuyi/sponge/pkg/gin/middleware"
-	"github.com/zhufuyi/sponge/pkg/gin/validator"
-	"github.com/zhufuyi/sponge/pkg/logger"
+	"github.com/hankyu66/sponge/pkg/gin/handlerfunc"
+	"github.com/hankyu66/sponge/pkg/gin/middleware"
+	"github.com/hankyu66/sponge/pkg/gin/validator"
+	"github.com/hankyu66/sponge/pkg/logger"
 
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"

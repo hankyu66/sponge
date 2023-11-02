@@ -6,8 +6,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/etcdcli"
-	"github.com/zhufuyi/sponge/pkg/servicerd/registry"
+	"github.com/hankyu66/sponge/pkg/etcdcli"
+	"github.com/hankyu66/sponge/pkg/servicerd/registry"
 
 	clientv3 "go.etcd.io/etcd/client/v3"
 )

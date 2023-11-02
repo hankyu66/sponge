@@ -3,9 +3,9 @@ package config
 import (
 	"testing"
 
-	"github.com/zhufuyi/sponge/configs"
+	"github.com/hankyu66/sponge/configs"
 
-	"github.com/zhufuyi/sponge/pkg/gofile"
+	"github.com/hankyu66/sponge/pkg/gofile"
 
 	"github.com/stretchr/testify/assert"
 )

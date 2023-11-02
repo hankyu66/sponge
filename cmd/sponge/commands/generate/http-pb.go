@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/zhufuyi/sponge/pkg/replacer"
+	"github.com/hankyu66/sponge/pkg/replacer"
 
 	"github.com/huandu/xstrings"
 	"github.com/spf13/cobra"
@@ -181,12 +181,12 @@ func addHTTPPbFields(moduleName string, serverName string, projectName string, r
 			New: protoShellHandlerCode,
 		},
 		{
-			Old: "github.com/zhufuyi/sponge",
+			Old: "github.com/hankyu66/sponge",
 			New: moduleName,
 		},
 		{
 			Old: moduleName + "/pkg",
-			New: "github.com/zhufuyi/sponge/pkg",
+			New: "github.com/hankyu66/sponge/pkg",
 		},
 		{
 			Old: "sponge api docs",

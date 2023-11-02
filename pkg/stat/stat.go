@@ -6,8 +6,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/stat/cpu"
-	"github.com/zhufuyi/sponge/pkg/stat/mem"
+	"github.com/hankyu66/sponge/pkg/stat/cpu"
+	"github.com/hankyu66/sponge/pkg/stat/mem"
 
 	"go.uber.org/zap"
 )

@@ -16,8 +16,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/logger"
-	"github.com/zhufuyi/sponge/pkg/rabbitmq"
+	"github.com/hankyu66/sponge/pkg/logger"
+	"github.com/hankyu66/sponge/pkg/rabbitmq"
 )
 
 func main() {
@@ -266,8 +266,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/logger"
-	"github.com/zhufuyi/sponge/pkg/rabbitmq"
+	"github.com/hankyu66/sponge/pkg/logger"
+	"github.com/hankyu66/sponge/pkg/rabbitmq"
 )
 
 var url = "amqp://guest:guest@127.0.0.1:5672/"

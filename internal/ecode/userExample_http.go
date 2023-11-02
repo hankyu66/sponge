@@ -1,7 +1,7 @@
 package ecode
 
 import (
-	"github.com/zhufuyi/sponge/pkg/errcode"
+	"github.com/hankyu66/sponge/pkg/errcode"
 )
 
 // userExample business-level http error codes.

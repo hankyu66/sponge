@@ -5,7 +5,7 @@ Connect to the etcd service client.
 ### Example of use
 
 ```go
-    import "github.com/zhufuyi/sponge/pkg/etcdcli"
+    import "github.com/hankyu66/sponge/pkg/etcdcli"
 
     endpoints := []string{"192.168.3.37:2379"}
     cli, err := etcdcli.Init(

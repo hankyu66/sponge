@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/gofile"
-	"github.com/zhufuyi/sponge/pkg/logger"
-	"github.com/zhufuyi/sponge/pkg/utils"
+	"github.com/hankyu66/sponge/pkg/gofile"
+	"github.com/hankyu66/sponge/pkg/logger"
+	"github.com/hankyu66/sponge/pkg/utils"
 )
 
 var (

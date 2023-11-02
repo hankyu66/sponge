@@ -12,13 +12,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zhufuyi/sponge/internal/ecode"
-	"github.com/zhufuyi/sponge/pkg/errcode"
-	"github.com/zhufuyi/sponge/pkg/gin/response"
-	"github.com/zhufuyi/sponge/pkg/gobash"
-	"github.com/zhufuyi/sponge/pkg/gofile"
-	"github.com/zhufuyi/sponge/pkg/krand"
-	"github.com/zhufuyi/sponge/pkg/mysql"
+	"github.com/hankyu66/sponge/internal/ecode"
+	"github.com/hankyu66/sponge/pkg/errcode"
+	"github.com/hankyu66/sponge/pkg/gin/response"
+	"github.com/hankyu66/sponge/pkg/gobash"
+	"github.com/hankyu66/sponge/pkg/gofile"
+	"github.com/hankyu66/sponge/pkg/krand"
+	"github.com/hankyu66/sponge/pkg/mysql"
 
 	"github.com/gin-gonic/gin"
 )

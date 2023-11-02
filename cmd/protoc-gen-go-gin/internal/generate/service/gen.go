@@ -4,7 +4,7 @@ package service
 import (
 	"bytes"
 
-	"github.com/zhufuyi/sponge/cmd/protoc-gen-go-gin/internal/parse"
+	"github.com/hankyu66/sponge/cmd/protoc-gen-go-gin/internal/parse"
 
 	"google.golang.org/protobuf/compiler/protogen"
 )

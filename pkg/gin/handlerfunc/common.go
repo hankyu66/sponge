@@ -7,8 +7,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/zhufuyi/sponge/pkg/errcode"
-	"github.com/zhufuyi/sponge/pkg/utils"
+	"github.com/hankyu66/sponge/pkg/errcode"
+	"github.com/hankyu66/sponge/pkg/utils"
 
 	"github.com/gin-gonic/gin"
 )

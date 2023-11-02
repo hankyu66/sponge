@@ -8,8 +8,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/consulcli"
-	"github.com/zhufuyi/sponge/pkg/servicerd/registry"
+	"github.com/hankyu66/sponge/pkg/consulcli"
+	"github.com/hankyu66/sponge/pkg/servicerd/registry"
 
 	"github.com/hashicorp/consul/api"
 )

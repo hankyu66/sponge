@@ -7,7 +7,7 @@ Parsing yaml, json, toml configuration files to go struct.
 ### Example of use
 
 ```go
-    import "github.com/zhufuyi/sponge/pkg/conf"
+    import "github.com/hankyu66/sponge/pkg/conf"
 
     // Way 1: No listening profile
     config := &App{}

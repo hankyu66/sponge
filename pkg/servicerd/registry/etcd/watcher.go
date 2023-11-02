@@ -3,7 +3,7 @@ package etcd
 import (
 	"context"
 
-	"github.com/zhufuyi/sponge/pkg/servicerd/registry"
+	"github.com/hankyu66/sponge/pkg/servicerd/registry"
 
 	clientv3 "go.etcd.io/etcd/client/v3"
 )

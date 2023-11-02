@@ -7,7 +7,7 @@ gtls provides grpc secure connectivity, supporting both server-only authenticati
 #### grpc server
 
 ```go
-import "github.com/zhufuyi/sponge/pkg/grpc/gtls"
+import "github.com/hankyu66/sponge/pkg/grpc/gtls"
 
 func main() {
 	// one-way authentication (server-side authentication)
@@ -39,7 +39,7 @@ func main() {
 #### grpc client
 
 ```go
-import "github.com/zhufuyi/sponge/pkg/grpc/gtls"
+import "github.com/hankyu66/sponge/pkg/grpc/gtls"
 
 func main() {
 	// one-way authentication

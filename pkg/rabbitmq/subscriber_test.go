@@ -2,11 +2,12 @@ package rabbitmq
 
 import (
 	"context"
-	amqp "github.com/rabbitmq/amqp091-go"
 	"testing"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/utils"
+	amqp "github.com/rabbitmq/amqp091-go"
+
+	"github.com/hankyu66/sponge/pkg/utils"
 )
 
 func TestSubscriber(t *testing.T) {

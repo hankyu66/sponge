@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/zhufuyi/sponge/internal/cache"
-	"github.com/zhufuyi/sponge/internal/model"
+	"github.com/hankyu66/sponge/internal/cache"
+	"github.com/hankyu66/sponge/internal/model"
 
-	cacheBase "github.com/zhufuyi/sponge/pkg/cache"
-	"github.com/zhufuyi/sponge/pkg/mysql/query"
-	"github.com/zhufuyi/sponge/pkg/utils"
+	cacheBase "github.com/hankyu66/sponge/pkg/cache"
+	"github.com/hankyu66/sponge/pkg/mysql/query"
+	"github.com/hankyu66/sponge/pkg/utils"
 
 	"golang.org/x/sync/singleflight"
 	"gorm.io/gorm"

@@ -4,14 +4,14 @@ import (
 	"testing"
 	"time"
 
-	serverNameExampleV1 "github.com/zhufuyi/sponge/api/serverNameExample/v1"
-	"github.com/zhufuyi/sponge/api/types"
-	"github.com/zhufuyi/sponge/internal/cache"
-	"github.com/zhufuyi/sponge/internal/dao"
-	"github.com/zhufuyi/sponge/internal/model"
+	serverNameExampleV1 "github.com/hankyu66/sponge/api/serverNameExample/v1"
+	"github.com/hankyu66/sponge/api/types"
+	"github.com/hankyu66/sponge/internal/cache"
+	"github.com/hankyu66/sponge/internal/dao"
+	"github.com/hankyu66/sponge/internal/model"
 
-	"github.com/zhufuyi/sponge/pkg/gotest"
-	"github.com/zhufuyi/sponge/pkg/utils"
+	"github.com/hankyu66/sponge/pkg/gotest"
+	"github.com/hankyu66/sponge/pkg/utils"
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/jinzhu/copier"

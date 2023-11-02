@@ -1,20 +1,20 @@
 ## English | [简体中文](assets/readme-cn.md)
 
 <p align="center">
-<img width="500px" src="https://raw.githubusercontent.com/zhufuyi/sponge/main/assets/logo.png">
+<img width="500px" src="https://raw.githubusercontent.com/hankyu66/sponge/main/assets/logo.png">
 </p>
 
 <div align=center>
 
-[![Go Report](https://goreportcard.com/badge/github.com/zhufuyi/sponge)](https://goreportcard.com/report/github.com/zhufuyi/sponge)
-[![codecov](https://codecov.io/gh/zhufuyi/sponge/branch/main/graph/badge.svg)](https://codecov.io/gh/zhufuyi/sponge)
-[![Go Reference](https://pkg.go.dev/badge/github.com/zhufuyi/sponge.svg)](https://pkg.go.dev/github.com/zhufuyi/sponge)
-[![Go](https://github.com/zhufuyi/sponge/workflows/Go/badge.svg?branch=main)](https://github.com/zhufuyi/sponge/actions)
-[![License: MIT](https://img.shields.io/github/license/zhufuyi/sponge)](https://img.shields.io/github/license/zhufuyi/sponge)
+[![Go Report](https://goreportcard.com/badge/github.com/hankyu66/sponge)](https://goreportcard.com/report/github.com/hankyu66/sponge)
+[![codecov](https://codecov.io/gh/hankyu66/sponge/branch/main/graph/badge.svg)](https://codecov.io/gh/hankyu66/sponge)
+[![Go Reference](https://pkg.go.dev/badge/github.com/hankyu66/sponge.svg)](https://pkg.go.dev/github.com/hankyu66/sponge)
+[![Go](https://github.com/hankyu66/sponge/workflows/Go/badge.svg?branch=main)](https://github.com/hankyu66/sponge/actions)
+[![License: MIT](https://img.shields.io/github/license/hankyu66/sponge)](https://img.shields.io/github/license/hankyu66/sponge)
 
 </div>
 
-[sponge](https://github.com/zhufuyi/sponge) is a powerful golang productivity tool that integrates `automatic code generation`, `web and microservices frameworks`, `basic development framework`. sponge has a wealth of generating code commands, generating different functional code can be combined into a complete service (similar to the way that artificially broken sponge cells can automatically recombine into a new sponge). The code is decoupled and modularly designed, it is easy to build a complete project from development to deployment, so that you develop web or microservices project easily, golang can also be "low-code development".
+[sponge](https://github.com/hankyu66/sponge) is a powerful golang productivity tool that integrates `automatic code generation`, `web and microservices frameworks`, `basic development framework`. sponge has a wealth of generating code commands, generating different functional code can be combined into a complete service (similar to the way that artificially broken sponge cells can automatically recombine into a new sponge). The code is decoupled and modularly designed, it is easy to build a complete project from development to deployment, so that you develop web or microservices project easily, golang can also be "low-code development".
 
 <br>
 
@@ -31,7 +31,7 @@ sponge is mainly based on **SQL** and **Protobuf** two ways to generate code, ea
 **Generate code framework:**
 
 <p align="center">
-<img width="1500px" src="https://raw.githubusercontent.com/zhufuyi/sponge/main/assets/sponge-framework.png">
+<img width="1500px" src="https://raw.githubusercontent.com/hankyu66/sponge/main/assets/sponge-framework.png">
 </p>
 
 <br>
@@ -39,7 +39,7 @@ sponge is mainly based on **SQL** and **Protobuf** two ways to generate code, ea
 **Generate code framework corresponding UI interface:**
 
 <p align="center">
-<img width="1200px" src="https://raw.githubusercontent.com/zhufuyi/sponge/main/assets/en_sponge-ui.png">
+<img width="1200px" src="https://raw.githubusercontent.com/hankyu66/sponge/main/assets/en_sponge-ui.png">
 </p>
 
 <br>
@@ -49,7 +49,7 @@ sponge is mainly based on **SQL** and **Protobuf** two ways to generate code, ea
 sponge generated microservice code framework is shown in the figure below, which is a typical microservice hierarchical structure, with high performance, high scalability, contains commonly used service governance features, you can easily replace or add their own service governance features.
 
 <p align="center">
-<img width="1000px" src="https://raw.githubusercontent.com/zhufuyi/sponge/main/assets/microservices-framework.png">
+<img width="1000px" src="https://raw.githubusercontent.com/hankyu66/sponge/main/assets/microservices-framework.png">
 </p>
 
 <br>
@@ -61,7 +61,7 @@ The sponge separates the two major parts of code during the process of generatin
 Egg model profiling diagram for `⓷Web services created based on protobuf`:
 
 <p align="center">
-<img width="1200px" src="https://raw.githubusercontent.com/zhufuyi/sponge_examples/main/assets/en_web-http-pb-anatomy.png">
+<img width="1200px" src="https://raw.githubusercontent.com/hankyu66/sponge_examples/main/assets/en_web-http-pb-anatomy.png">
 </p>
 
 This is the egg model for web service code, and there are egg models for microservice (gRPC) code, and rpc gateway service code described in [sponge documentation](https://go-sponge.com/learn-about-sponge?id=%f0%9f%8f%b7project-code-egg-model).
@@ -72,7 +72,7 @@ This is the egg model for web service code, and there are egg models for microse
 
 **Installation sponge:**
 
-sponge can be installed on Windows, macOS, and Linux environments. Click here to view [Installation Instructions](https://github.com/zhufuyi/sponge/blob/main/assets/install-en.md).
+sponge can be installed on Windows, macOS, and Linux environments. Click here to view [Installation Instructions](https://github.com/hankyu66/sponge/blob/main/assets/install-en.md).
 
 After installing the sponge, start the UI service:
 
@@ -94,17 +94,17 @@ Visit `http://localhost:24631` in your browser, generate code by manipulating it
 
 #### Simple examples (excluding business logic code)
 
-- [1_web-gin-CRUD](https://github.com/zhufuyi/sponge_examples/tree/main/1_web-gin-CRUD)
-- [2_web-gin-protobuf](https://github.com/zhufuyi/sponge_examples/tree/main/2_web-gin-protobuf)
-- [3_micro-grpc-CRUD](https://github.com/zhufuyi/sponge_examples/tree/main/3_micro-grpc-CRUD)
-- [4_micro-grpc-protobuf](https://github.com/zhufuyi/sponge_examples/tree/main/4_micro-grpc-protobuf)
-- [5_micro-gin-rpc-gateway](https://github.com/zhufuyi/sponge_examples/tree/main/5_micro-gin-rpc-gateway)
-- [6_micro-cluster](https://github.com/zhufuyi/sponge_examples/tree/main/6_micro-cluster)
+- [1_web-gin-CRUD](https://github.com/hankyu66/sponge_examples/tree/main/1_web-gin-CRUD)
+- [2_web-gin-protobuf](https://github.com/hankyu66/sponge_examples/tree/main/2_web-gin-protobuf)
+- [3_micro-grpc-CRUD](https://github.com/hankyu66/sponge_examples/tree/main/3_micro-grpc-CRUD)
+- [4_micro-grpc-protobuf](https://github.com/hankyu66/sponge_examples/tree/main/4_micro-grpc-protobuf)
+- [5_micro-gin-rpc-gateway](https://github.com/hankyu66/sponge_examples/tree/main/5_micro-gin-rpc-gateway)
+- [6_micro-cluster](https://github.com/hankyu66/sponge_examples/tree/main/6_micro-cluster)
 
 #### Full project examples (including business logic code)
 
-- [7_community-single](https://github.com/zhufuyi/sponge_examples/tree/main/7_community-single)
-- [8_community-cluster](https://github.com/zhufuyi/sponge_examples/tree/main/8_community-cluster)
+- [7_community-single](https://github.com/hankyu66/sponge_examples/tree/main/7_community-single)
+- [8_community-cluster](https://github.com/hankyu66/sponge_examples/tree/main/8_community-cluster)
 
 <br>
 

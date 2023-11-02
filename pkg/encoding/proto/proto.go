@@ -4,7 +4,7 @@ package proto
 import (
 	"fmt"
 
-	"github.com/zhufuyi/sponge/pkg/encoding"
+	"github.com/hankyu66/sponge/pkg/encoding"
 
 	"google.golang.org/protobuf/proto"
 )

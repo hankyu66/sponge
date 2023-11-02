@@ -3,11 +3,11 @@ package routers
 import (
 	"context"
 
-	serverNameExampleV1 "github.com/zhufuyi/sponge/api/serverNameExample/v1"
-	"github.com/zhufuyi/sponge/internal/service"
+	serverNameExampleV1 "github.com/hankyu66/sponge/api/serverNameExample/v1"
+	"github.com/hankyu66/sponge/internal/service"
 
-	"github.com/zhufuyi/sponge/pkg/gin/middleware"
-	"github.com/zhufuyi/sponge/pkg/logger"
+	"github.com/hankyu66/sponge/pkg/gin/middleware"
+	"github.com/hankyu66/sponge/pkg/logger"
 
 	"github.com/gin-gonic/gin"
 	"google.golang.org/grpc/metadata"

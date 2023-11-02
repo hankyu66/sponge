@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/container/group"
-	"github.com/zhufuyi/sponge/pkg/gin/response"
-	"github.com/zhufuyi/sponge/pkg/gohttp"
-	"github.com/zhufuyi/sponge/pkg/shield/circuitbreaker"
-	"github.com/zhufuyi/sponge/pkg/utils"
+	"github.com/hankyu66/sponge/pkg/container/group"
+	"github.com/hankyu66/sponge/pkg/gin/response"
+	"github.com/hankyu66/sponge/pkg/gohttp"
+	"github.com/hankyu66/sponge/pkg/shield/circuitbreaker"
+	"github.com/hankyu66/sponge/pkg/utils"
 
 	"github.com/gin-gonic/gin"
 )

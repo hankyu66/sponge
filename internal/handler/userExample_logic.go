@@ -5,15 +5,15 @@ import (
 	"errors"
 	"strings"
 
-	serverNameExampleV1 "github.com/zhufuyi/sponge/api/serverNameExample/v1"
-	"github.com/zhufuyi/sponge/internal/cache"
-	"github.com/zhufuyi/sponge/internal/dao"
-	"github.com/zhufuyi/sponge/internal/ecode"
-	"github.com/zhufuyi/sponge/internal/model"
+	serverNameExampleV1 "github.com/hankyu66/sponge/api/serverNameExample/v1"
+	"github.com/hankyu66/sponge/internal/cache"
+	"github.com/hankyu66/sponge/internal/dao"
+	"github.com/hankyu66/sponge/internal/ecode"
+	"github.com/hankyu66/sponge/internal/model"
 
-	"github.com/zhufuyi/sponge/pkg/gin/middleware"
-	"github.com/zhufuyi/sponge/pkg/logger"
-	"github.com/zhufuyi/sponge/pkg/mysql/query"
+	"github.com/hankyu66/sponge/pkg/gin/middleware"
+	"github.com/hankyu66/sponge/pkg/logger"
+	"github.com/hankyu66/sponge/pkg/mysql/query"
 
 	"github.com/jinzhu/copier"
 )

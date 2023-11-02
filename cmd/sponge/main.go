@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/zhufuyi/sponge/cmd/sponge/commands"
-	"github.com/zhufuyi/sponge/cmd/sponge/commands/generate"
-	"github.com/zhufuyi/sponge/pkg/gofile"
+	"github.com/hankyu66/sponge/cmd/sponge/commands"
+	"github.com/hankyu66/sponge/cmd/sponge/commands/generate"
+	"github.com/hankyu66/sponge/pkg/gofile"
 )
 
 func main() {

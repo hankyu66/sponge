@@ -5,7 +5,7 @@ import (
 	"os/exec"
 	"runtime"
 
-	"github.com/zhufuyi/sponge/cmd/sponge/server"
+	"github.com/hankyu66/sponge/cmd/sponge/server"
 
 	"github.com/spf13/cobra"
 )

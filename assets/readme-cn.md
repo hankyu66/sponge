@@ -1,4 +1,4 @@
-[sponge](https://github.com/zhufuyi/sponge) 是一个集成了`自动生成代码`、`web和微服务框架`、`基础开发框架`的golang生产力工具。sponge拥有丰富的生成代码命令，生成不同的功能代码可以组合成完整的服务(类似人为打散的海绵细胞可以自动重组成一个新的海绵)。代码解耦模块化设计，很容易构建出从开发到部署的完整工程项目，让你开发web或微服务项目轻而易举、事半功倍，golang也可以"低代码开发"。
+[sponge](https://github.com/hankyu66/sponge) 是一个集成了`自动生成代码`、`web和微服务框架`、`基础开发框架`的golang生产力工具。sponge拥有丰富的生成代码命令，生成不同的功能代码可以组合成完整的服务(类似人为打散的海绵细胞可以自动重组成一个新的海绵)。代码解耦模块化设计，很容易构建出从开发到部署的完整工程项目，让你开发web或微服务项目轻而易举、事半功倍，golang也可以"低代码开发"。
 
 <br>
 
@@ -15,7 +15,7 @@ sponge主要基于**SQL**和**Protobuf**两种方式生成代码，每种方式�
 **生成代码的框架图：**
 
 <p align="center">
-<img width="1500px" src="https://raw.githubusercontent.com/zhufuyi/sponge/main/assets/sponge-framework.png">
+<img width="1500px" src="https://raw.githubusercontent.com/hankyu66/sponge/main/assets/sponge-framework.png">
 </p>
 
 <br>
@@ -23,7 +23,7 @@ sponge主要基于**SQL**和**Protobuf**两种方式生成代码，每种方式�
 **生成代码框架对应的UI界面：**
 
 <p align="center">
-<img width="1500px" src="https://raw.githubusercontent.com/zhufuyi/sponge/main/assets/sponge-ui.png">
+<img width="1500px" src="https://raw.githubusercontent.com/hankyu66/sponge/main/assets/sponge-ui.png">
 </p>
 
 <br>
@@ -33,7 +33,7 @@ sponge主要基于**SQL**和**Protobuf**两种方式生成代码，每种方式�
 sponge生成的微服务代码框架如下图所示，这是典型的微服务分层结构，具有高性能，高扩展性，包含了常用的服务治理功能，可以很方便替换或添加自己的服务治理功能。
 
 <p align="center">
-<img width="1000px" src="https://raw.githubusercontent.com/zhufuyi/sponge/main/assets/microservices-framework.png">
+<img width="1000px" src="https://raw.githubusercontent.com/hankyu66/sponge/main/assets/microservices-framework.png">
 </p>
 
 <br>
@@ -45,7 +45,7 @@ sponge生成代码过程中剥离了业务逻辑与非业务逻辑两大部分�
 `⓷基于protobuf创建的web服务`代码的鸡蛋模型剖析图：
 
 <p align="center">
-<img width="1200px" src="https://raw.githubusercontent.com/zhufuyi/sponge_examples/main/assets/web-http-pb-anatomy.png">
+<img width="1200px" src="https://raw.githubusercontent.com/hankyu66/sponge_examples/main/assets/web-http-pb-anatomy.png">
 </p>
 
 这是web服务代码鸡蛋模型，还有微服务(gRPC)代码、rpc网关服务代码的鸡蛋模型在[sponge文档](https://go-sponge.com/zh-cn/learn-about-sponge?id=%f0%9f%8f%b7%e9%a1%b9%e7%9b%ae%e4%bb%a3%e7%a0%81%e9%b8%a1%e8%9b%8b%e6%a8%a1%e5%9e%8b)中有介绍。
@@ -67,8 +67,8 @@ sponge包含丰富的组件(按需使用)：
 - 鉴权 [jwt](https://github.com/golang-jwt/jwt)
 - 校验 [validator](https://github.com/go-playground/validator)
 - 消息组件 [rabbitmq](github.com/rabbitmq/amqp091-go)
-- 自适应限流 [ratelimit](https://github.com/zhufuyi/sponge/tree/main/pkg/shield/ratelimit)
-- 自适应熔断 [circuitbreaker](https://github.com/zhufuyi/sponge/tree/main/pkg/shield/circuitbreaker)
+- 自适应限流 [ratelimit](https://github.com/hankyu66/sponge/tree/main/pkg/shield/ratelimit)
+- 自适应熔断 [circuitbreaker](https://github.com/hankyu66/sponge/tree/main/pkg/shield/circuitbreaker)
 - 链路跟踪 [opentelemetry](https://github.com/open-telemetry/opentelemetry-go)
 - 监控 [prometheus](https://github.com/prometheus/client_golang/prometheus), [grafana](https://github.com/grafana/grafana)
 - 服务注册与发现 [etcd](https://github.com/etcd-io/etcd), [consul](https://github.com/hashicorp/consul), [nacos](https://github.com/alibaba/nacos)
@@ -115,7 +115,7 @@ sponge包含丰富的组件(按需使用)：
 
 **安装sponge：**
 
-支持在windows、mac、linux环境下安装sponge，点击[查看安装说明](https://github.com/zhufuyi/sponge/blob/main/assets/install-cn.md)。
+支持在windows、mac、linux环境下安装sponge，点击[查看安装说明](https://github.com/hankyu66/sponge/blob/main/assets/install-cn.md)。
 
 安装完成sponge后，启动UI服务：
 
@@ -139,19 +139,19 @@ sponge run
 
 不包括业务逻辑代码。
 
-- [1_web-gin-CRUD](https://github.com/zhufuyi/sponge_examples/tree/main/1_web-gin-CRUD)
-- [2_web-gin-protobuf](https://github.com/zhufuyi/sponge_examples/tree/main/2_web-gin-protobuf)
-- [3_micro-grpc-CRUD](https://github.com/zhufuyi/sponge_examples/tree/main/3_micro-grpc-CRUD)
-- [4_micro-grpc-protobuf](https://github.com/zhufuyi/sponge_examples/tree/main/4_micro-grpc-protobuf)
-- [5_micro-gin-rpc-gateway](https://github.com/zhufuyi/sponge_examples/tree/main/5_micro-gin-rpc-gateway)
-- [6_micro-cluster](https://github.com/zhufuyi/sponge_examples/tree/main/6_micro-cluster)
+- [1_web-gin-CRUD](https://github.com/hankyu66/sponge_examples/tree/main/1_web-gin-CRUD)
+- [2_web-gin-protobuf](https://github.com/hankyu66/sponge_examples/tree/main/2_web-gin-protobuf)
+- [3_micro-grpc-CRUD](https://github.com/hankyu66/sponge_examples/tree/main/3_micro-grpc-CRUD)
+- [4_micro-grpc-protobuf](https://github.com/hankyu66/sponge_examples/tree/main/4_micro-grpc-protobuf)
+- [5_micro-gin-rpc-gateway](https://github.com/hankyu66/sponge_examples/tree/main/5_micro-gin-rpc-gateway)
+- [6_micro-cluster](https://github.com/hankyu66/sponge_examples/tree/main/6_micro-cluster)
 
 #### 完整项目示例
 
 包括业务逻辑代码。
 
-- [7_community-single](https://github.com/zhufuyi/sponge_examples/tree/main/7_community-single)
-- [8_community-cluster](https://github.com/zhufuyi/sponge_examples/tree/main/8_community-cluster)
+- [7_community-single](https://github.com/hankyu66/sponge_examples/tree/main/7_community-single)
+- [8_community-cluster](https://github.com/hankyu66/sponge_examples/tree/main/8_community-cluster)
 
 <br>
 
@@ -178,7 +178,7 @@ sponge run
 
 如果对您有帮助给个star⭐，欢迎加入**go sponge微信群交流**，加微信进群。
 
-<img width="300px" src="https://raw.githubusercontent.com/zhufuyi/sponge/main/assets/wechat-group.jpg">
+<img width="300px" src="https://raw.githubusercontent.com/hankyu66/sponge/main/assets/wechat-group.jpg">
 
 <br>
 

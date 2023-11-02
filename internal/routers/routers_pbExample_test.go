@@ -5,12 +5,12 @@ import (
 	"testing"
 	"time"
 
-	serverNameExampleV1 "github.com/zhufuyi/sponge/api/serverNameExample/v1"
-	"github.com/zhufuyi/sponge/configs"
-	"github.com/zhufuyi/sponge/internal/config"
+	serverNameExampleV1 "github.com/hankyu66/sponge/api/serverNameExample/v1"
+	"github.com/hankyu66/sponge/configs"
+	"github.com/hankyu66/sponge/internal/config"
 
-	"github.com/zhufuyi/sponge/pkg/gin/middleware"
-	"github.com/zhufuyi/sponge/pkg/utils"
+	"github.com/hankyu66/sponge/pkg/gin/middleware"
+	"github.com/hankyu66/sponge/pkg/utils"
 
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"

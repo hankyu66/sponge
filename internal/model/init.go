@@ -5,11 +5,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zhufuyi/sponge/internal/config"
+	"github.com/hankyu66/sponge/internal/config"
 
-	"github.com/zhufuyi/sponge/pkg/goredis"
-	"github.com/zhufuyi/sponge/pkg/logger"
-	"github.com/zhufuyi/sponge/pkg/mysql"
+	"github.com/hankyu66/sponge/pkg/goredis"
+	"github.com/hankyu66/sponge/pkg/logger"
+	"github.com/hankyu66/sponge/pkg/mysql"
 
 	"github.com/go-redis/redis/v8"
 	"gorm.io/gorm"

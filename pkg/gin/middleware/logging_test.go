@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/gin/response"
-	"github.com/zhufuyi/sponge/pkg/gohttp"
-	"github.com/zhufuyi/sponge/pkg/logger"
-	"github.com/zhufuyi/sponge/pkg/utils"
+	"github.com/hankyu66/sponge/pkg/gin/response"
+	"github.com/hankyu66/sponge/pkg/gohttp"
+	"github.com/hankyu66/sponge/pkg/logger"
+	"github.com/hankyu66/sponge/pkg/utils"
 
 	"github.com/gin-gonic/gin"
 )

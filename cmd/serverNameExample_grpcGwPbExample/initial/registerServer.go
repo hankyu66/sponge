@@ -5,15 +5,15 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/zhufuyi/sponge/internal/config"
-	"github.com/zhufuyi/sponge/internal/server"
+	"github.com/hankyu66/sponge/internal/config"
+	"github.com/hankyu66/sponge/internal/server"
 
-	"github.com/zhufuyi/sponge/pkg/app"
-	"github.com/zhufuyi/sponge/pkg/logger"
-	"github.com/zhufuyi/sponge/pkg/servicerd/registry"
-	"github.com/zhufuyi/sponge/pkg/servicerd/registry/consul"
-	"github.com/zhufuyi/sponge/pkg/servicerd/registry/etcd"
-	"github.com/zhufuyi/sponge/pkg/servicerd/registry/nacos"
+	"github.com/hankyu66/sponge/pkg/app"
+	"github.com/hankyu66/sponge/pkg/logger"
+	"github.com/hankyu66/sponge/pkg/servicerd/registry"
+	"github.com/hankyu66/sponge/pkg/servicerd/registry/consul"
+	"github.com/hankyu66/sponge/pkg/servicerd/registry/etcd"
+	"github.com/hankyu66/sponge/pkg/servicerd/registry/nacos"
 )
 
 // RegisterServers register for the app service

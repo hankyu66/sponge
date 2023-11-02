@@ -7,7 +7,7 @@ Commonly used grpc client-side and server-side interceptors.
 ### Example of use
 
 ```go
-import "github.com/zhufuyi/sponge/pkg/grpc/interceptor"
+import "github.com/hankyu66/sponge/pkg/grpc/interceptor"
 ```
 
 #### logging

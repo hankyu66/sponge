@@ -5,10 +5,10 @@ import (
 	"context"
 	"errors"
 
-	"github.com/zhufuyi/sponge/pkg/grpc/gtls"
-	"github.com/zhufuyi/sponge/pkg/grpc/interceptor"
-	"github.com/zhufuyi/sponge/pkg/logger"
-	"github.com/zhufuyi/sponge/pkg/servicerd/discovery"
+	"github.com/hankyu66/sponge/pkg/grpc/gtls"
+	"github.com/hankyu66/sponge/pkg/grpc/interceptor"
+	"github.com/hankyu66/sponge/pkg/logger"
+	"github.com/hankyu66/sponge/pkg/servicerd/discovery"
 
 	grpc_middleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	"google.golang.org/grpc"

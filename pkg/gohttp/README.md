@@ -11,7 +11,7 @@ The http request client, which only supports returning json format.
 Get, Delete request example.
 
 ```go
-    import "github.com/zhufuyi/sponge/pkg/gohttp"
+    import "github.com/hankyu66/sponge/pkg/gohttp"
 
     req := gohttp.Request{}
     req.SetURL("http://localhost:8080/user")
@@ -34,7 +34,7 @@ Get, Delete request example.
 Post, Put, Patch request example.
 
 ```go
-    import "github.com/zhufuyi/sponge/pkg/gohttp"
+    import "github.com/hankyu66/sponge/pkg/gohttp"
 
     req := gohttp.Request{}
     req.SetURL("http://localhost:8080/user")
@@ -67,7 +67,7 @@ Post, Put, Patch request example.
 No support for setting header, timeout, etc.
 
 ```go
-    import "github.com/zhufuyi/sponge/pkg/gohttp"
+    import "github.com/hankyu66/sponge/pkg/gohttp"
 
     url := "http://localhost:8080/user"
     params := gohttp.KV{"id":123}

@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package types;
 
-option go_package = "github.com/zhufuyi/sponge/api/types;types";
+option go_package = "github.com/hankyu66/sponge/api/types;types";
 
 message Params {
   int32 page = 1; // page number, starting from 0

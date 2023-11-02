@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/gofile"
+	"github.com/hankyu66/sponge/pkg/gofile"
 )
 
 var _ Replacer = (*replacerInfo)(nil)

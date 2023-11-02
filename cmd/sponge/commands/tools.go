@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/gobash"
+	"github.com/hankyu66/sponge/pkg/gobash"
 
 	"github.com/spf13/cobra"
 )
@@ -36,8 +36,8 @@ var installToolCommands = map[string]string{
 	"protoc-gen-go-grpc":     "google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest",
 	"protoc-gen-validate":    "github.com/envoyproxy/protoc-gen-validate@latest",
 	"protoc-gen-gotag":       "github.com/srikrsna/protoc-gen-gotag@latest",
-	"protoc-gen-go-gin":      "github.com/zhufuyi/sponge/cmd/protoc-gen-go-gin@latest",
-	"protoc-gen-go-rpc-tmpl": "github.com/zhufuyi/sponge/cmd/protoc-gen-go-rpc-tmpl@latest",
+	"protoc-gen-go-gin":      "github.com/hankyu66/sponge/cmd/protoc-gen-go-gin@latest",
+	"protoc-gen-go-rpc-tmpl": "github.com/hankyu66/sponge/cmd/protoc-gen-go-rpc-tmpl@latest",
 	"protoc-gen-openapiv2":   "github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2@latest",
 	"protoc-gen-doc":         "github.com/pseudomuto/protoc-gen-doc/cmd/protoc-gen-doc@latest",
 	"golangci-lint":          "github.com/golangci/golangci-lint/cmd/golangci-lint@latest",

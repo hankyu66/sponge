@@ -2,10 +2,10 @@
 package middleware
 
 import (
-	"github.com/zhufuyi/sponge/pkg/errcode"
-	"github.com/zhufuyi/sponge/pkg/gin/response"
-	"github.com/zhufuyi/sponge/pkg/jwt"
-	"github.com/zhufuyi/sponge/pkg/logger"
+	"github.com/hankyu66/sponge/pkg/errcode"
+	"github.com/hankyu66/sponge/pkg/gin/response"
+	"github.com/hankyu66/sponge/pkg/jwt"
+	"github.com/hankyu66/sponge/pkg/logger"
 
 	"github.com/gin-gonic/gin"
 )

@@ -7,7 +7,7 @@ gin metrics library, collect five metrics, `uptime`, `http_request_count_total`,
 ### Example of use
 
 ```go
-	import "github.com/zhufuyi/sponge/pkg/gin/middleware/metrics"
+	import "github.com/hankyu66/sponge/pkg/gin/middleware/metrics"
 
 	r := gin.Default()
 

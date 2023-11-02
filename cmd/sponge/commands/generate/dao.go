@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/zhufuyi/sponge/pkg/replacer"
-	"github.com/zhufuyi/sponge/pkg/sql2code"
-	"github.com/zhufuyi/sponge/pkg/sql2code/parser"
+	"github.com/hankyu66/sponge/pkg/replacer"
+	"github.com/hankyu66/sponge/pkg/sql2code"
+	"github.com/hankyu66/sponge/pkg/sql2code/parser"
 
 	"github.com/spf13/cobra"
 )
@@ -161,12 +161,12 @@ func addDAOFields(moduleName string, r replacer.Replacer, codes map[string]strin
 			New: moduleName,
 		},
 		{
-			Old: "github.com/zhufuyi/sponge",
+			Old: "github.com/hankyu66/sponge",
 			New: moduleName,
 		},
 		{
 			Old: moduleName + "/pkg",
-			New: "github.com/zhufuyi/sponge/pkg",
+			New: "github.com/hankyu66/sponge/pkg",
 		},
 		{
 			Old:             "UserExample",

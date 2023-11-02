@@ -1,7 +1,7 @@
 package interceptor
 
 import (
-	"github.com/zhufuyi/sponge/pkg/grpc/metrics"
+	"github.com/hankyu66/sponge/pkg/grpc/metrics"
 
 	"google.golang.org/grpc"
 )

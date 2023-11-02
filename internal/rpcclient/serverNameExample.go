@@ -7,16 +7,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zhufuyi/sponge/internal/config"
+	"github.com/hankyu66/sponge/internal/config"
 
-	"github.com/zhufuyi/sponge/pkg/consulcli"
-	"github.com/zhufuyi/sponge/pkg/etcdcli"
-	"github.com/zhufuyi/sponge/pkg/grpc/grpccli"
-	"github.com/zhufuyi/sponge/pkg/logger"
-	"github.com/zhufuyi/sponge/pkg/nacoscli"
-	"github.com/zhufuyi/sponge/pkg/servicerd/registry/consul"
-	"github.com/zhufuyi/sponge/pkg/servicerd/registry/etcd"
-	"github.com/zhufuyi/sponge/pkg/servicerd/registry/nacos"
+	"github.com/hankyu66/sponge/pkg/consulcli"
+	"github.com/hankyu66/sponge/pkg/etcdcli"
+	"github.com/hankyu66/sponge/pkg/grpc/grpccli"
+	"github.com/hankyu66/sponge/pkg/logger"
+	"github.com/hankyu66/sponge/pkg/nacoscli"
+	"github.com/hankyu66/sponge/pkg/servicerd/registry/consul"
+	"github.com/hankyu66/sponge/pkg/servicerd/registry/etcd"
+	"github.com/hankyu66/sponge/pkg/servicerd/registry/nacos"
 
 	"google.golang.org/grpc"
 )

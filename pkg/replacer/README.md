@@ -7,7 +7,7 @@ A library of replacement file content, supports replacement of files in local di
 ### Example of use
 
 ```go
-import "github.com/zhufuyi/sponge/pkg/replacer"
+import "github.com/hankyu66/sponge/pkg/replacer"
 
 //go:embed dir
 var fs embed.FS

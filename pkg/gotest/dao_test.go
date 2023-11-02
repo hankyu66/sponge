@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/mysql/query"
+	"github.com/hankyu66/sponge/pkg/mysql/query"
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"gorm.io/gorm"

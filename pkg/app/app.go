@@ -8,7 +8,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/zhufuyi/sponge/pkg/prof"
+	"github.com/hankyu66/sponge/pkg/prof"
 
 	"golang.org/x/sync/errgroup"
 )

@@ -1,4 +1,4 @@
-module github.com/zhufuyi/sponge
+module github.com/hankyu66/sponge
 
 go 1.19
 
@@ -24,6 +24,7 @@ require (
 	github.com/huandu/xstrings v1.3.1
 	github.com/jinzhu/copier v0.3.5
 	github.com/jinzhu/inflection v1.0.0
+	github.com/nacos-group/nacos-sdk-go v1.1.4
 	github.com/nacos-group/nacos-sdk-go/v2 v2.1.0
 	github.com/natefinch/lumberjack v2.0.0+incompatible
 	github.com/pkg/errors v0.9.1
@@ -89,6 +90,7 @@ require (
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.2 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
+	github.com/go-errors/errors v1.0.1 // indirect
 	github.com/go-logr/logr v1.2.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect

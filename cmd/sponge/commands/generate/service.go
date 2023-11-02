@@ -6,10 +6,10 @@ import (
 	"math/rand"
 	"strings"
 
-	"github.com/zhufuyi/sponge/pkg/gofile"
-	"github.com/zhufuyi/sponge/pkg/replacer"
-	"github.com/zhufuyi/sponge/pkg/sql2code"
-	"github.com/zhufuyi/sponge/pkg/sql2code/parser"
+	"github.com/hankyu66/sponge/pkg/gofile"
+	"github.com/hankyu66/sponge/pkg/replacer"
+	"github.com/hankyu66/sponge/pkg/sql2code"
+	"github.com/hankyu66/sponge/pkg/sql2code/parser"
 
 	"github.com/spf13/cobra"
 )
@@ -178,7 +178,7 @@ func addServiceFields(moduleName string, serverName string, r replacer.Replacer,
 			New: moduleName,
 		},
 		{
-			Old: "github.com/zhufuyi/sponge",
+			Old: "github.com/hankyu66/sponge",
 			New: moduleName,
 		},
 		// replace directory name
@@ -201,7 +201,7 @@ func addServiceFields(moduleName string, serverName string, r replacer.Replacer,
 		},
 		{
 			Old: moduleName + "/pkg",
-			New: "github.com/zhufuyi/sponge/pkg",
+			New: "github.com/hankyu66/sponge/pkg",
 		},
 		{
 			Old: "serverNameExample",

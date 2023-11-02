@@ -2,7 +2,7 @@
 package ecode
 
 import (
-	"github.com/zhufuyi/sponge/pkg/errcode"
+	"github.com/hankyu66/sponge/pkg/errcode"
 )
 
 // http system level error code, error code range 10000~20000

@@ -6,10 +6,10 @@ import (
 	"math/rand"
 	"strings"
 
-	"github.com/zhufuyi/sponge/pkg/gofile"
-	"github.com/zhufuyi/sponge/pkg/replacer"
-	"github.com/zhufuyi/sponge/pkg/sql2code"
-	"github.com/zhufuyi/sponge/pkg/sql2code/parser"
+	"github.com/hankyu66/sponge/pkg/gofile"
+	"github.com/hankyu66/sponge/pkg/replacer"
+	"github.com/hankyu66/sponge/pkg/sql2code"
+	"github.com/hankyu66/sponge/pkg/sql2code/parser"
 
 	"github.com/huandu/xstrings"
 	"github.com/spf13/cobra"
@@ -250,7 +250,7 @@ func addRPCFields(moduleName string, serverName string, projectName string, repo
 			Old: appConfigFileMark,
 			New: rpcServerConfigCode,
 		},
-		// replace github.com/zhufuyi/sponge/templates/sponge
+		// replace github.com/hankyu66/sponge/templates/sponge
 		{
 			Old: selfPackageName + "/" + r.GetSourcePath(),
 			New: moduleName,
@@ -261,12 +261,12 @@ func addRPCFields(moduleName string, serverName string, projectName string, repo
 			New: strings.Join([]string{"api", serverName, "v1"}, gofile.GetPathDelimiter()),
 		},
 		{
-			Old: "github.com/zhufuyi/sponge",
+			Old: "github.com/hankyu66/sponge",
 			New: moduleName,
 		},
 		{
 			Old: moduleName + "/pkg",
-			New: "github.com/zhufuyi/sponge/pkg",
+			New: "github.com/hankyu66/sponge/pkg",
 		},
 		{
 			Old: "api/userExample/v1",
