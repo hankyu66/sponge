@@ -163,7 +163,7 @@ func getLatestVersion(s string) string {
 
 func updateSpongeInternalPlugin(latestVersionNum string) {
 	ctx, _ := context.WithTimeout(context.Background(), time.Minute) //nolint
-	result := gobash.Run(ctx, "go", "install", "github.com/zhufuyi/sponge/cmd/protoc-gen-go-gin@"+latestVersionNum)
+	result := gobash.Run(ctx, "go", "install", "github.com"+spongeSrc+"/sponge/cmd/protoc-gen-go-gin@"+latestVersionNum)
 	for v := range result.StdOut {
 		_ = v
 	}
@@ -173,7 +173,7 @@ func updateSpongeInternalPlugin(latestVersionNum string) {
 	}
 
 	ctx, _ = context.WithTimeout(context.Background(), time.Minute) //nolint
-	result = gobash.Run(ctx, "go", "install", "github.com/zhufuyi/sponge/cmd/protoc-gen-go-rpc-tmpl@"+latestVersionNum)
+	result = gobash.Run(ctx, "go", "install", "github.com"+spongeSrc+"/sponge/cmd/protoc-gen-go-rpc-tmpl@"+latestVersionNum)
 	for v := range result.StdOut {
 		_ = v
 	}
