@@ -6,6 +6,7 @@ package initial
 import (
 	"flag"
 	"fmt"
+	"os"
 	"strconv"
 
 	"github.com/zhufuyi/sponge/configs"
@@ -17,8 +18,6 @@ import (
 	"github.com/zhufuyi/sponge/pkg/nacoscli"
 	"github.com/zhufuyi/sponge/pkg/stat"
 	"github.com/zhufuyi/sponge/pkg/tracer"
-
-	"github.com/jinzhu/copier"
 )
 
 var (
@@ -80,19 +79,9 @@ func initConfig() {
 		if configFile == "" {
 			configFile = configs.Path("serverNameExample_cc.yml")
 		}
-		nacosConfig, err := config.NewCenter(configFile)
-		if err != nil {
-			panic(err)
-		}
 		appConfig := &config.Config{}
-		params := &nacoscli.Params{}
-		_ = copier.Copy(params, &nacosConfig.Nacos)
-		err = nacoscli.Init(appConfig, params)
-		if err != nil {
-			panic(fmt.Sprintf("connect to configuration center err, %v", err))
-		}
-		if appConfig.App.Name == "" {
-			panic("read the config from center error, config data is empty")
+		if err := initNacos(appConfig); err != nil {
+			panic(fmt.Sprintf("Connect nacos failed, %s", err))
 		}
 		config.Set(appConfig)
 	} else {
@@ -110,4 +99,32 @@ func initConfig() {
 		config.Get().App.Version = version
 	}
 	//fmt.Println(config.Show())
+}
+
+func initNacos(config interface{}) error {
+	url := os.Getenv("NACOS_Url")
+	namespace := os.Getenv("NACOS_Namespace")
+	group := os.Getenv("NACOS_GroupName")
+	dataId := os.Getenv("NACOS_DataId")
+	// auth := os.Getenv("NACOS_Auth")
+	// user := os.Getenv("NACOS_User")
+	// password := os.Getenv("NACOS_Password")
+	configType := os.Getenv("NACOS_ConfigType")
+	port := func() uint64 {
+		p, err := strconv.Atoi(os.Getenv("NACOS_Port"))
+		if err != nil {
+			return 80
+		}
+		return uint64(p)
+	}()
+	client, err := nacoscli.NewClient(url, namespace, port)
+	if err != nil {
+		fmt.Println("NewClient err", err)
+		return err
+	}
+	if err := nacoscli.GetAndWatchConfig(client, dataId, group, configType, config); err != nil {
+		fmt.Println("GetAndWatchConfig err", err)
+		return err
+	}
+	return nil
 }
